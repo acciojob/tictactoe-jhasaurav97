@@ -1,8 +1,8 @@
 //your JS code here. If required.
 document.addEventListener("DOMContentLoaded", () => {
   const userForm = document.getElementById("user-form");
-  const userOne = document.getElementById("player-1");
-  const userTwo = document.getElementById("player-2");
+  const userOne = document.getElementById("player1");
+  const userTwo = document.getElementById("player2");
   const submitBtn = document.getElementById("submit");
   const userBoxes = document.getElementById("user-box");
   const message = document.querySelector(".message");
