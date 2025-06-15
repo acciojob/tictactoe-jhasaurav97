@@ -31,7 +31,9 @@
       if (board[a] && board[a] === board[b] && board[b] === board[c]) {
         gameOver = true;
         const winnerName = currentPlayer === "x" ? player1 : player2;
-        message.textContent = `${winnerName} congratulations you won!`;
+       if (winner) {
+  message.textContent = `${winnerName} congratulations you won!`;
+}
         return;
       }
     }
