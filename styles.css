@@ -1,1 +1,78 @@
 /*  your css code here. If applicable */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  background-color: #7D0A0A;
+  color: #EEEEEE;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  text-align: center;
+  margin-top: 80px;
+}
+
+h1{
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+#user-form{
+  font-size: 1.5rem;
+}
+
+#user-form input{
+  width: 280px;
+  padding: 10px 8px;
+  border: 2px solid #BF3131;
+  margin-bottom: 10px;
+}
+
+#user-form button{
+  border: none;
+  font-size: 1.5rem;
+  width: 260px;
+  border: 2px solid #BF3131;
+  padding: 10px 8px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+#user-box{
+  display: none;
+}
+
+#boxes{
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 10px;
+}
+
+.message{
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.box{
+  background-color: #EAD196;
+  color: #000;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 2rem;
+  font-weight: bold;
+}
